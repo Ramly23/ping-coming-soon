@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/21bf2f8b90.js" crossorigin="anonymous"></script>
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+
+  <main>
+    <section>
+      <div class="container">
+        <div class="first-section">
+          <div class="flex">
+            <img src="images/logo.svg" alt="logo">
+          </div>
+          <h1>We are launching <span>soon!</span></h1>
+          <p class = 'upper-text'>Subscribe and get notified</p>
+          <form>
+            <div class="flex block">
+                <input class = 'input' type = 'email' placeholder = 'Your email address...'>
+                <div class="hide-for-desktop error">
+                  <p class = 'error-text '>Please provide a email address.</p>
+                </div>
+                <input class = 'button' type = 'submit' value = 'Notify Me'>
+            </div>
+            <div class="hide-for-mobile">
+              <p class = 'error-text'>Please provide a email address.</p>
+            </div>
+          </form>
+          <div class="flex">
+            <img class = 'dashboard' src="images/illustration-dashboard.png" alt="dashboard">
+          </div>
+          <div class="icons flex">
+            <div class="border flex">
+              <a href=""><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <div class="border flex">
+              <a href=""><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="border flex">
+              <a href=""><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <p class = 'copyright'>&copy; Copyright Ping. All rights reserved.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Ramly</a>.
+    </p>
+  </footer>
+
+
+  <script src = 'script.js'></script>
+</body>
+</html>
